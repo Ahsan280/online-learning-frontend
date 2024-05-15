@@ -2,7 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import axios from "axios";
-const baseUrl = "http://127.0.0.1:8000/api/";
+// const baseUrl = "http://127.0.0.1:8000/api/";
+const baseUrl = "https://online-learning-api-b16d8aab79f8.herokuapp.com/api/";
 function AllLatestCourses() {
   const [courses, setCourses] = useState([]);
 
